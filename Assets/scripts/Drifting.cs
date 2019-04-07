@@ -14,7 +14,7 @@ public class Drifting : MonoBehaviour
     void Update()
     {
         //transform.Translate(transform.up*0.01f);
-        rb.AddForce(transform.up*0.01f);
+        rb.AddForce(transform.up*0.1f);
         if (Input.GetMouseButton(0))
         {
             rb.AddTorque(0.01f);
@@ -23,7 +23,7 @@ public class Drifting : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             rb.angularVelocity = 0;
-            
+            rb.velocity = Vector2.zero;
         }
         if (Input.GetMouseButton(1))
         {
@@ -32,6 +32,7 @@ public class Drifting : MonoBehaviour
         if (Input.GetMouseButtonUp(1))
         {
             rb.angularVelocity = 0;
+            rb.velocity = Vector2.zero;
         }
     }
 }
