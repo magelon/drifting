@@ -8,7 +8,8 @@ public class detectCollider : MonoBehaviour
     AudioSource audioData;
     public Drifting dr;
     public SpriteRenderer carImage;
-    public Text t;
+    public GameObject restart;
+
     public Rigidbody2D rb;
     public ParticleSystem par;
 
@@ -24,6 +25,7 @@ public class detectCollider : MonoBehaviour
         {
             rb.bodyType = RigidbodyType2D.Static;
             carImage.color = Color.black;
+            restart.SetActive(true);
             if (!par.isPlaying)
             {
                 par.Play();
@@ -35,7 +37,7 @@ public class detectCollider : MonoBehaviour
                 audioData.Play(0);
             }
         }
-        if (collision.gameObject.name == "2")
+        if (collision.gameObject.name == "2"|| collision.gameObject.name == "0")
         {
             dr.turnleft = true;
             Debug.Log("left turn");
@@ -43,13 +45,6 @@ public class detectCollider : MonoBehaviour
        
     }
 
-    private void Update()
-    {
-        t.fontSize = (int)Mathf.Lerp(t.fontSize, 1000, Time.deltaTime);
-        Color c = t.color;
-        c.a -= 0.1f;
-        t.color = c;
-        
-    }
+   
 
 }
