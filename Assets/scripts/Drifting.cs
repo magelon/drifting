@@ -18,6 +18,7 @@ public class Drifting : MonoBehaviour
 
     private void Start()
     {
+        turnleft = true;
         rb = GetComponent<Rigidbody2D>();
         audioData = GetComponent<AudioSource>();
     }
