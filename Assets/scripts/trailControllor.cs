@@ -10,15 +10,16 @@ public class trailControllor : MonoBehaviour
     Skidmarks skidmarksController;
 
     int lastSkid=-1;
+    
 
     void Update()
     {
        
         if (Input.GetMouseButton(0))
         {
-            lastSkid = skidmarksController.AddSkidMark(transform.position, transform.position, 1, lastSkid);
+            lastSkid = skidmarksController.AddSkidMark(transform.position,transform.position, 1, lastSkid);
             //tr.enabled = true;
-
+           
         }
         if (Input.GetMouseButtonUp(0))
         {
@@ -27,7 +28,7 @@ public class trailControllor : MonoBehaviour
         }
         if (Input.GetMouseButton(1))
         {
-            lastSkid = skidmarksController.AddSkidMark(transform.position, transform.position, 1, lastSkid);
+            lastSkid = skidmarksController.AddSkidMark( transform.position, transform.position, 1, lastSkid);
             //tr.enabled = true;
         }
         if (Input.GetMouseButtonUp(1))
