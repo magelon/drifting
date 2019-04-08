@@ -9,8 +9,22 @@ public class trailControllor : MonoBehaviour
     [SerializeField]
     Skidmarks skidmarksController;
 
+    AudioSource audioData;
+
     int lastSkid=-1;
-    
+
+    private void Start()
+    {
+        audioData = GetComponent<AudioSource>();
+        if (audioData)
+        {
+            if (!audioData.isPlaying)
+            {
+                audioData.Play(0);
+            }
+        }
+       
+    }
 
     void Update()
     {
@@ -19,22 +33,43 @@ public class trailControllor : MonoBehaviour
         {
             lastSkid = skidmarksController.AddSkidMark(transform.position,transform.position, 1, lastSkid);
             //tr.enabled = true;
-           
+            if (audioData) {
+                audioData.Stop();
+            }
+            
         }
         if (Input.GetMouseButtonUp(0))
         {
             lastSkid = -1;
-           // StartCoroutine(stopTrail());
+            // StartCoroutine(stopTrail());
+            if (audioData)
+            {
+                if (!audioData.isPlaying)
+                {
+                    audioData.Play(0);
+                }
+            }
         }
         if (Input.GetMouseButton(1))
         {
             lastSkid = skidmarksController.AddSkidMark( transform.position, transform.position, 1, lastSkid);
-            //tr.enabled = true;
+                //tr.enabled = true;
+                if (audioData)
+                {
+                    audioData.Stop();
+                }
         }
         if (Input.GetMouseButtonUp(1))
         {
             lastSkid = -1;
-            //StartCoroutine(stopTrail());
+                    //StartCoroutine(stopTrail());
+                    if (audioData)
+                    {
+                        if (!audioData.isPlaying)
+                        {
+                            audioData.Play(0);
+                        }
+                    }
         }
     }
 
