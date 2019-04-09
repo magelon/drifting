@@ -26,6 +26,15 @@ public class Drifting : MonoBehaviour
         audioData = GetComponent<AudioSource>();
     }
 
+    private void FixedUpdate()
+    {
+        if (rb.velocity.magnitude < 0.35f)
+        {
+            rb.AddForce(transform.up * 0.1f);
+        }
+
+    }
+
     void Update()
     {
         if (turnleft)
@@ -38,11 +47,7 @@ public class Drifting : MonoBehaviour
         }
         //velocityLimit = rb.velocity.magnitude;
         //transform.Translate(transform.up*0.01f);
-        if (rb.velocity.magnitude < 0.5f)
-        {
-            rb.AddForce(transform.up * 0.1f);
-        }
-        
+       
         if (Input.GetMouseButton(0))
         {
             if (turnleft)
