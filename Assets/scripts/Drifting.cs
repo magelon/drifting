@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Drifting : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class Drifting : MonoBehaviour
 
     AudioSource audioData;
 
+    public Image sr;
+
     //public float velocityLimit;
 
     private void Start()
@@ -25,6 +28,14 @@ public class Drifting : MonoBehaviour
 
     void Update()
     {
+        if (turnleft)
+        {
+          sr.rectTransform.localScale=new Vector3(1,1,1);
+        }
+        else
+        {
+            sr.rectTransform.localScale = new Vector3(-1, 1, 1);
+        }
         //velocityLimit = rb.velocity.magnitude;
         //transform.Translate(transform.up*0.01f);
         if (rb.velocity.magnitude < 0.5f)
