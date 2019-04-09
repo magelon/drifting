@@ -9,10 +9,18 @@ public class startTextEffect : MonoBehaviour
 
     private void Update()
     {
-        t.fontSize = (int)Mathf.Lerp(t.fontSize, 1000, 0.2f*Time.deltaTime);
+        StartCoroutine(scaleing());
+
+    }
+
+    IEnumerator scaleing()
+    {
+        t.fontSize = (int)Mathf.Lerp(t.fontSize, 1000, 0.2f * Time.deltaTime);
         Color c = t.color;
         c.a -= 0.01f;
         t.color = c;
-
+        yield return new WaitForSeconds(5);
+        this.enabled = false;
     }
+
 }

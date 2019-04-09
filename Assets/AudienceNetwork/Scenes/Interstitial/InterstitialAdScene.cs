@@ -21,7 +21,7 @@ public class InterstitialAdScene : MonoBehaviour
 
         // Create the interstitial unit with a placement ID (generate your own on the Facebook app settings).
         // Use different ID for each ad placement in your app.
-        interstitialAd = new InterstitialAd("YOUR_PLACEMENT_ID");
+        interstitialAd = new InterstitialAd("2222185464713314_2222189018046292");
         
         interstitialAd.Register(gameObject);
 

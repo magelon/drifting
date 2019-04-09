@@ -11,6 +11,21 @@ public class tapToGo : MonoBehaviour
     private InterstitialAd interstitialAd;
     private bool isLoaded;
 
+    private void Start()
+    {
+        Loadintersitital();
+    }
+
+    void OnDestroy()
+    {
+        // Dispose of interstitial ad when the scene is destroyed
+        if (interstitialAd != null)
+        {
+            interstitialAd.Dispose();
+        }
+        Debug.Log("InterstitialAdTest was destroyed!");
+    }
+
     public void Loadintersitital()
     {
         this.interstitialAd = new InterstitialAd("2222185464713314_2222189018046292");
@@ -33,7 +48,9 @@ public class tapToGo : MonoBehaviour
 
         this.interstitialAd.interstitialAdDidClose = (delegate () {
             Debug.Log("Interstitial ad did close.");
+
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
             if (this.interstitialAd != null)
             {
                 this.interstitialAd.Dispose();

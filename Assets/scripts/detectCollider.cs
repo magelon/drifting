@@ -37,12 +37,16 @@ public class detectCollider : MonoBehaviour
                 audioData.Play(0);
             }
         }
-        if (collision.gameObject.name == "0")
+         if ((collision.gameObject.name.ToString().Length>4)&&(collision.gameObject.name.ToString().Substring(0,4) == "numb"))
+        {
+            collision.GetComponent<spriteRenderFadeout>().enabled = true;
+        }
+          if (collision.gameObject.name == "0")
         {
             dr.turnleft = true;
             Debug.Log("left turn");
         }
-        if (collision.gameObject.name == "1")
+         if (collision.gameObject.name == "1")
         {
             dr.turnleft = false;
         }
