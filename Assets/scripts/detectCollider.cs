@@ -37,10 +37,14 @@ public class detectCollider : MonoBehaviour
                 audioData.Play(0);
             }
         }
-        if (collision.gameObject.name == "2"|| collision.gameObject.name == "0")
+        if (collision.gameObject.name == "0")
         {
             dr.turnleft = true;
             Debug.Log("left turn");
+        }
+        if (collision.gameObject.name == "1")
+        {
+            dr.turnleft = false;
         }
        
     }
