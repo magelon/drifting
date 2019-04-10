@@ -22,6 +22,7 @@ public class coinMoveCount : MonoBehaviour
         {
            
             coinText.GetComponent<coinCountText>().coin++;
+            coinText.GetComponent<coinCountText>().UpdateCoinText();
             Destroy(this.gameObject);
         }
     }

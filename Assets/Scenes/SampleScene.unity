@@ -5627,7 +5627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -12273,7 +12273,6 @@ MonoBehaviour:
   restart: {fileID: 934371232}
   rb: {fileID: 1850651897}
   par: {fileID: 1207847357}
-  cct: {fileID: 2102107906}
 --- !u!82 &1360554308
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12659,7 +12658,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
@@ -16394,8 +16393,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.2, y: -158}
-  m_SizeDelta: {x: 105.2, y: 30}
+  m_AnchoredPosition: {x: -0.021207, y: -230}
+  m_SizeDelta: {x: 173.22, y: 84.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1985074795
 MonoBehaviour:
