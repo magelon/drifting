@@ -131,6 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &41115495 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3265403539523685188, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
@@ -150,6 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &45037484 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3265403539523685188, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
@@ -169,6 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &50994682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -433,6 +436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &52235393 stripped
 Transform:
@@ -459,6 +463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &56161131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -543,6 +548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &56161132 stripped
 Transform:
@@ -634,6 +640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &64007675 stripped
 Transform:
@@ -660,6 +667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &72687331
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,6 +952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &86789987 stripped
 Transform:
@@ -1180,6 +1189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &111668043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,6 +1387,7 @@ Transform:
   - {fileID: 1773672889}
   - {fileID: 51573538}
   - {fileID: 2130029968}
+  - {fileID: 1564230593}
   m_Father: {fileID: 1306137959}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1675,25 +1686,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
---- !u!1 &189715541 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3265403539523685188, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
-    type: 3}
-  m_PrefabInstance: {fileID: 464879374}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &189715542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189715541}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e94fee6e1a66f4840b2d5d7f2cf3b3f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coin: {fileID: 1498501151}
 --- !u!1001 &196838105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1778,6 +1770,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &196838106 stripped
 Transform:
@@ -1804,6 +1797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &226711416 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3265403539523685188, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
@@ -1823,6 +1817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &234959678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1997,6 +1992,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &237750479 stripped
 Transform:
@@ -2023,6 +2019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &286025696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2107,6 +2104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &286025697 stripped
 Transform:
@@ -2198,6 +2196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &287042658 stripped
 Transform:
@@ -2224,6 +2223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &299086957 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3265403539523685188, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
@@ -2243,6 +2243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &300217109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2352,6 +2353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &323174694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2436,6 +2438,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &323174695 stripped
 Transform:
@@ -2462,6 +2465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &364057974
 GameObject:
   m_ObjectHideFlags: 3
@@ -2631,6 +2635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &374628486 stripped
 Transform:
@@ -2812,6 +2817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &388489317 stripped
 Transform:
@@ -2838,6 +2844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &454994064 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3265403539523685188, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
@@ -2857,6 +2864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &464879374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2924,23 +2932,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3835429120999600496, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3835429120999600496, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3835429120999600496, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - target: {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+      propertyPath: coin
+      value: 
+      objectReference: {fileID: 1498501151}
+    - target: {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+      propertyPath: coinText
+      value: 
+      objectReference: {fileID: 2102107902}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &464879375 stripped
 Transform:
@@ -3122,6 +3122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &501300773 stripped
 Transform:
@@ -3148,6 +3149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &510660663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3232,6 +3234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &510660664 stripped
 Transform:
@@ -3492,6 +3495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &513937962 stripped
 Transform:
@@ -3639,6 +3643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &567651852
 GameObject:
   m_ObjectHideFlags: 0
@@ -3767,6 +3772,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &576458645 stripped
 Transform:
@@ -3793,6 +3799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &649289872 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3265403539523685188, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
@@ -3812,6 +3819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &670790903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3896,6 +3904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &670790904 stripped
 Transform:
@@ -4077,6 +4086,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &677768125 stripped
 Transform:
@@ -4168,6 +4178,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &687778611 stripped
 Transform:
@@ -4194,6 +4205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &749606627
 GameObject:
   m_ObjectHideFlags: 0
@@ -4423,6 +4435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &778355911
 GameObject:
   m_ObjectHideFlags: 0
@@ -4562,6 +4575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &810014666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4646,6 +4660,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &810014667 stripped
 Transform:
@@ -4737,6 +4752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &820848940 stripped
 Transform:
@@ -4883,6 +4899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &836549439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4967,6 +4984,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &836549440 stripped
 Transform:
@@ -5083,6 +5101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &852863841
 GameObject:
   m_ObjectHideFlags: 0
@@ -5222,6 +5241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &888264311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5306,6 +5326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &888264312 stripped
 Transform:
@@ -5373,6 +5394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &911603523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5457,6 +5479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &911603524 stripped
 Transform:
@@ -5483,6 +5506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &934371232
 GameObject:
   m_ObjectHideFlags: 0
@@ -5711,6 +5735,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &938953003 stripped
 Transform:
@@ -5802,6 +5827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &941622451 stripped
 Transform:
@@ -6052,6 +6078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &1130832825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6136,6 +6163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1130832826 stripped
 Transform:
@@ -6332,6 +6360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1177518374 stripped
 Transform:
@@ -6358,6 +6387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &1196890454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6442,6 +6472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1196890455 stripped
 Transform:
@@ -6533,6 +6564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1200033408 stripped
 Transform:
@@ -11257,6 +11289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &1220959524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11341,6 +11374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1220959525 stripped
 Transform:
@@ -11713,6 +11747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1281433936 stripped
 Transform:
@@ -11938,6 +11973,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1314358238 stripped
 Transform:
@@ -12029,6 +12065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1334434759 stripped
 Transform:
@@ -12055,6 +12092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &1345234430 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3265403539523685188, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
@@ -12074,6 +12112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &1353457233 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3265403539523685188, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
@@ -12093,6 +12132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &1355961889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12233,6 +12273,7 @@ MonoBehaviour:
   restart: {fileID: 934371232}
   rb: {fileID: 1850651897}
   par: {fileID: 1207847357}
+  cct: {fileID: 2102107906}
 --- !u!82 &1360554308
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12374,6 +12415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &1392707079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12458,6 +12500,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1392707080 stripped
 Transform:
@@ -12549,6 +12592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1425470449 stripped
 Transform:
@@ -12719,6 +12763,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1433532532 stripped
 Transform:
@@ -12810,6 +12855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1442828603 stripped
 Transform:
@@ -12945,6 +12991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1462088190 stripped
 Transform:
@@ -12971,6 +13018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &1497048545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13055,6 +13103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1497048546 stripped
 Transform:
@@ -13071,7 +13120,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1498501151}
-  - component: {fileID: 1498501152}
   m_Layer: 0
   m_Name: coinPosition
   m_TagString: Untagged
@@ -13093,19 +13141,6 @@ Transform:
   m_Father: {fileID: 519420032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1498501152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498501150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c171040d9c2f9044b2231108fff61f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coin: 0
 --- !u!1 &1509011813
 GameObject:
   m_ObjectHideFlags: 0
@@ -13169,6 +13204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &1513279306
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13278,6 +13314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &1523700881
 GameObject:
   m_ObjectHideFlags: 0
@@ -13537,6 +13574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &1547640351
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13621,6 +13659,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1547640352 stripped
 Transform:
@@ -14013,6 +14052,81 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!1001 &1564230592
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 119440519}
+    m_Modifications:
+    - target: {fileID: 402465790952947014, guid: 4293e6464021e144fa2e1744fd1affb4,
+        type: 3}
+      propertyPath: m_Name
+      value: Road pattens_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 402465790952947012, guid: 4293e6464021e144fa2e1744fd1affb4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 402465790952947012, guid: 4293e6464021e144fa2e1744fd1affb4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 402465790952947012, guid: 4293e6464021e144fa2e1744fd1affb4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 402465790952947012, guid: 4293e6464021e144fa2e1744fd1affb4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 402465790952947012, guid: 4293e6464021e144fa2e1744fd1affb4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 402465790952947012, guid: 4293e6464021e144fa2e1744fd1affb4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 402465790952947012, guid: 4293e6464021e144fa2e1744fd1affb4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 402465790952947012, guid: 4293e6464021e144fa2e1744fd1affb4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 402465790952947012, guid: 4293e6464021e144fa2e1744fd1affb4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 402465790952947012, guid: 4293e6464021e144fa2e1744fd1affb4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 402465790952947012, guid: 4293e6464021e144fa2e1744fd1affb4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4293e6464021e144fa2e1744fd1affb4, type: 3}
+--- !u!4 &1564230593 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 402465790952947012, guid: 4293e6464021e144fa2e1744fd1affb4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1564230592}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1572095116
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14122,6 +14236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &1613544234 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3265403539523685188, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
@@ -14141,6 +14256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &1620380922
 GameObject:
   m_ObjectHideFlags: 0
@@ -14569,6 +14685,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1662606510 stripped
 Transform:
@@ -14660,6 +14777,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1725475346 stripped
 Transform:
@@ -14686,6 +14804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &1732937746
 GameObject:
   m_ObjectHideFlags: 0
@@ -14721,7 +14840,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -46.899994, y: -24.099976}
+  m_AnchoredPosition: {x: -33.7, y: -35.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1732937748
@@ -14799,6 +14918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &1736161689 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3265403539523685188, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
@@ -14818,6 +14938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &1737905517 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3265403539523685188, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
@@ -14837,6 +14958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &1762784290 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3265403539523685188, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
@@ -14856,6 +14978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &1763188649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14965,6 +15088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &1773672888
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15074,6 +15198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &1804555939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15158,6 +15283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1804555940 stripped
 Transform:
@@ -15318,6 +15444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1836794704 stripped
 Transform:
@@ -15344,6 +15471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &1842787864 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3265403539523685188, guid: d3f810fd2b9ef51489662a8b0dfdb90a,
@@ -15363,6 +15491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &1850651894
 GameObject:
   m_ObjectHideFlags: 0
@@ -15620,6 +15749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1856136551 stripped
 Transform:
@@ -15711,6 +15841,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1887566434 stripped
 Transform:
@@ -15802,6 +15933,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1898643544 stripped
 Transform:
@@ -15828,6 +15960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &1908515801
 GameObject:
   m_ObjectHideFlags: 0
@@ -16032,6 +16165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1934198694 stripped
 Transform:
@@ -16123,6 +16257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1959309603 stripped
 Transform:
@@ -16214,6 +16349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &1963082218 stripped
 Transform:
@@ -16525,6 +16661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &2019996380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16609,6 +16746,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &2019996381 stripped
 Transform:
@@ -16725,6 +16863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &2022422928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16834,6 +16973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1001 &2044546980
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16918,6 +17058,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &2044546981 stripped
 Transform:
@@ -16944,6 +17085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 1498501151}
+  coinText: {fileID: 2102107902}
 --- !u!1 &2080226062
 GameObject:
   m_ObjectHideFlags: 0
@@ -17072,6 +17214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &2080654810 stripped
 Transform:
@@ -17090,6 +17233,7 @@ GameObject:
   - component: {fileID: 2102107903}
   - component: {fileID: 2102107905}
   - component: {fileID: 2102107904}
+  - component: {fileID: 2102107906}
   m_Layer: 5
   m_Name: CoinCount
   m_TagString: Untagged
@@ -17113,7 +17257,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -19.3, y: -112.3}
+  m_AnchoredPosition: {x: -2, y: -121.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &2102107904
@@ -17139,7 +17283,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 35
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -17149,7 +17293,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 0
 --- !u!222 &2102107905
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17158,6 +17302,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2102107902}
   m_CullTransparentMesh: 0
+--- !u!114 &2102107906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102107902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d53502679dd7a74db4cac095b4e1ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin: 0
 --- !u!1001 &2130029967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17332,6 +17489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9050179891250756273, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
+    - {fileID: 189715542, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3f810fd2b9ef51489662a8b0dfdb90a, type: 3}
 --- !u!4 &2146133565 stripped
 Transform:

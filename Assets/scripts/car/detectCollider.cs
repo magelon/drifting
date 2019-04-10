@@ -12,6 +12,7 @@ public class detectCollider : MonoBehaviour
 
     public Rigidbody2D rb;
     public ParticleSystem par;
+    public coinCountText cct;
 
     void Start()
     {
@@ -53,6 +54,7 @@ public class detectCollider : MonoBehaviour
         if (collision.gameObject.name == "coin")
         {
             collision.GetComponent<coinMoveCount>().enabled=true;
+            cct.UpdateCoinText();
         }
        
     }

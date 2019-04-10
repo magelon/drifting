@@ -6,6 +6,7 @@ public class coinMoveCount : MonoBehaviour
 {
     //coin destination should be sign in scense in editor mode
     public Transform coin;
+    public GameObject coinText;
 
     private void Update()
     {
@@ -20,7 +21,7 @@ public class coinMoveCount : MonoBehaviour
         if (Vector2.Distance(transform.position, coin.position) < 0.001f)
         {
            
-            coin.GetComponent<coinCount>().coin++;
+            coinText.GetComponent<coinCountText>().coin++;
             Destroy(this.gameObject);
         }
     }
