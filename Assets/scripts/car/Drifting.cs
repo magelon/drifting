@@ -110,6 +110,7 @@ public class Drifting : MonoBehaviour
         //stop drifting
         if (Input.GetMouseButtonUp(0))
         {
+            rb.AddForce(transform.up * 0.3f);
             //incresing velocity
             accelerate = true;
             //stop turining force

@@ -50,6 +50,10 @@ public class detectCollider : MonoBehaviour
         {
             dr.turnleft = false;
         }
+        if (collision.gameObject.name == "coin")
+        {
+            collision.GetComponent<coinMoveCount>().enabled=true;
+        }
        
     }
 
