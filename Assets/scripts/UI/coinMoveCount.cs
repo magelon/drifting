@@ -7,10 +7,21 @@ public class coinMoveCount : MonoBehaviour
     //coin destination should be sign in scense in editor mode
     public Transform coin;
     public GameObject coinText;
+    AudioSource audioData;
+
+    private void Start()
+    {
+        audioData = GetComponent<AudioSource>();
+        if (!audioData.isPlaying)
+        {
+            audioData.Play(0);
+        }
+    }
 
     private void Update()
     {
         StartCoroutine(moveToward());
+       
     }
 
     IEnumerator moveToward()

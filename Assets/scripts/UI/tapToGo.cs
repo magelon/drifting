@@ -79,18 +79,15 @@ public class tapToGo : MonoBehaviour
 
     private void RequestRewardBasedVideo()
     {
-
-#if UNITY_ANDROID
+        #if UNITY_ANDROID
         string adUnitId = "ca-app-pub-3308520213502941/3746146778";
         //demo id ca-app-pub-3940256099942544/5224354917;
-#elif UNITY_IPHONE
+        #elif UNITY_IPHONE
         string adUnitId = "ca-app-pub-3940256099942544/1712485313";
-#else
+        #else
         string adUnitId = "unexpected_platform";
-#endif
-
+        #endif
         AdRequest request = new AdRequest.Builder().Build();
-
         this.rewardBasedVideo.LoadAd(request, adUnitId);
     }
 
@@ -101,6 +98,7 @@ public class tapToGo : MonoBehaviour
         startText.SetActive(true);
         this.gameObject.SetActive(false);
     }
+
     public void Restart()
     {
         ShowRewardBasedVideo();
@@ -116,6 +114,7 @@ public class tapToGo : MonoBehaviour
 
     public void HandleRewardBasedVideoFailedToLoad(object sender, AdFailedToLoadEventArgs args)
     {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         MonoBehaviour.print(
             "HandleRewardBasedVideoFailedToLoad event received with message: " + args.Message);
     }
@@ -138,8 +137,7 @@ public class tapToGo : MonoBehaviour
     public void HandleRewardBasedVideoRewarded(object sender, Reward args)
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        MonoBehaviour.print(
-            "HandleRewardBasedVideoRewarded event received for " );
+        MonoBehaviour.print("HandleRewardBasedVideoRewarded event received for " );
     }
 
     public void HandleRewardBasedVideoLeftApplication(object sender, EventArgs args)
