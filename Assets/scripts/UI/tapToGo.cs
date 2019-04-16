@@ -101,8 +101,8 @@ public class tapToGo : MonoBehaviour
 
     public void Restart()
     {
-        ShowRewardBasedVideo();
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //ShowRewardBasedVideo();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     #region RewardBasedVideo callback handlers
