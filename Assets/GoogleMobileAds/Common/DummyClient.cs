@@ -180,7 +180,15 @@ namespace GoogleMobileAds.Common
 
         public void ShowRewardBasedVideoAd()
         {
+            //GameData.getInstance().coin += 20;
+            //GameData.getInstance().coin -= 60;
+            //PlayerPrefs.SetInt("coin", GameData.getInstance().coin);
+            //Debug.Log(GameData.getInstance().coin);
+            //PlayerPrefs.SetInt("coin", GameData.getInstance().coin);
+            //GameData.getInstance().main.txtCoin.text = GameData.getInstance().coin.ToString();
+
             Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+
         }
 
         public void CreateAdLoader(AdLoader.Builder builder)
